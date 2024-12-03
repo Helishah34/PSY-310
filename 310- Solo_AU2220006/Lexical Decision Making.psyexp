@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.1.5">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Lexical Decision Making" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="warning" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="instructions">
+      <RoutineSettingsComponent name="instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instructionsText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instructionsText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome to the Lexical Decision-making Task. &amp;#10;&amp;#10;You are about to see a series of characters.&amp;#10;&amp;#10;If the characters make a word, &amp;#10;press the 'M' key.&amp;#10;&amp;#10;If the characters do not make a word, &amp;#10;press the 'Z' key.&amp;#10;&amp;#10;Press SPACE to begin the experiment&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Stimulus" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'m','z'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="correct_response = null;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Initialize variable to track correctness&amp;#10;correct_response = None" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# Check if the participant has responded&amp;#10;if key_resp.keys:  # If a response was given&amp;#10;    participant_response = key_resp.keys[0]  # Get the first key pressed&amp;#10;else:&amp;#10;    participant_response = None  # If no response, set as None&amp;#10;&amp;#10;# Compare the participant's response with the correct response from the condition file&amp;#10;if participant_response == CorrectResponse:&amp;#10;    correct_response = 1  # Correct response&amp;#10;else:&amp;#10;    correct_response = 0  # Incorrect response" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if (key_resp.keys) {&amp;#10;    participant_response = key_resp.keys[0];&amp;#10;} else {&amp;#10;    participant_response = null;&amp;#10;}&amp;#10;if ((participant_response === CorrectResponse)) {&amp;#10;    correct_response = 1;&amp;#10;} else {&amp;#10;    correct_response = 0;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="psychoJS.experiment.addData(&quot;ParticipantResponse&quot;, participant_response);&amp;#10;psychoJS.experiment.addData(&quot;CorrectResponse&quot;, correct_response);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# Save correctness and response data to the experiment file&amp;#10;thisExp.addData('ParticipantResponse', participant_response)&amp;#10;thisExp.addData('CorrectResponse', correct_response)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="End">
+      <RoutineSettingsComponent name="End" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="End" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_z" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_z" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating!&amp;#10;&amp;#10;Your contribution is greatly appreciated!&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Stimulus': 'l o v e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'v a b l i n', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'f e a r f u l', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'g r i n d l e', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'd r e n k', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'b l o r p', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 't a b l e', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'c h a i r', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'c h i n d l e', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'd r e a m', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'e x c i t e d', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'f l o r t', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'c l i b b e t', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 's t o n e', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 's m o r n', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'a n g e r', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'p l a r k', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'g r i n d l e', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'l a m p', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'j o y f u l', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'c l o c k', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'h a p p y', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'b o o k', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'd r i n t', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'p e n c i l', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'v i c t o r y', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'c r i t i c i s m', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'a c h i e v e m e n t', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'g l o r b y', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'l o s s', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 's u n s h i n e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'z a r f e t', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'a p p l e', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 's o r r o w', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'm i s e r y', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 's u c c e s s', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'd r i n t', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'p e n c i l', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'v o b l i t', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'd e l i g h t', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 't r a i n', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'g r a t i t u d e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'l a m p', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'c h e e r f u l', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'a n g e r', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'p l a r k', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'h o p e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'p l a n e t', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'c l o c k', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'g r u f f i l', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'g r i e f', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 's m o r n', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'p l o r', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 's m a g l e', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'g r i n d l e', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 's m i l e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'd e s p a i r', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 't r e n k', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'b o t t l e', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'c o m f o r t', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'b l o r p', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'c r y', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'g r i e f', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'c h e e r', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'r e g r e t', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 's a d n e s s', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'm u r k l e', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'w a r', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'w i n d o w', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 's w o r p y', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 't r a g e d y', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'm o u n t a i n', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'e x c i t e d', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'z o m p r e', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'h a t e', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'c e l e b r a t i o n', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'l a w v e r', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'f a i l u r e', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'c a b l e', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'b r a s k', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'w i n d o w', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'g r i e f', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'k i n d n e s s', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'p a i n', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'b l o r p', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'c a r p e t', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'c a l e n d a r', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 's a d', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 's a d n e s s', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'p e a c e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'l o m e b', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'q u i b l e n', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 's m i l e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 't w o r i k', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'c l o u d', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'd r o n t', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}, {'Stimulus': 'm e t r o', 'IsWord': 1.0, 'Valence': 'neutral', 'CorrectResponse': 'm'}, {'Stimulus': 'p e a c e', 'IsWord': 1.0, 'Valence': 'positive', 'CorrectResponse': 'm'}, {'Stimulus': 'f e a r f u l', 'IsWord': 1.0, 'Valence': 'negative', 'CorrectResponse': 'm'}, {'Stimulus': 'c r i o u s', 'IsWord': 0.0, 'Valence': 'non-word', 'CorrectResponse': 'z'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions_file_LDT.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="5" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
